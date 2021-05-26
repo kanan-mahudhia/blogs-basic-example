@@ -1,8 +1,8 @@
 const nodemailer = require('nodemailer');
 const config = require('config');
 const logger = require('../utils/logger');
-const gmail_email= "techtic.kanan@gmail.com";
-const gmail_password= "tech@kanan";
+const gmail_email= "Email";
+const gmail_password= "password";
 
 const { domain } = config.get('frontEnd');
 
